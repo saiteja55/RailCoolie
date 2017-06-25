@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">RailCoolie</string>
+    <string name="title_activity_signup">SignupActivity</string>
+    <string name="title_activity_home">HomeActivity</string>
+    <string-array name="baggages_quantity">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+    </string-array>
+    <string-array name="journeyType">
+        <item>Boarding</item>
+        <item>Dropping</item>
+    </string-array>
+
+</resources>

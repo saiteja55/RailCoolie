@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    >
+
+    <EditText
+        android:id="@+id/l_mnumber"
+        android:layout_width="368dp"
+        android:layout_height="wrap_content"
+        android:inputType="number"
+        android:hint="Mobile Number"
+
+        android:gravity="center"
+        android:layout_marginTop="20dp"
+         />
+
+
+    <EditText
+        android:id="@+id/upassword"
+        android:layout_width="368dp"
+        android:layout_height="wrap_content"
+        android:inputType="textPassword"
+        android:hint="PASSWORD"
+
+        android:gravity="center"
+
+        />
+
+    <Button
+        android:id="@+id/login_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Login" />
+
+</LinearLayout>
